@@ -1,0 +1,24 @@
+<stack class="container">
+    <div class="content">
+        <text class="title">{{ labels.app_title }}</text>
+        <text class="status-text">{{ labels.store_status }} {{ status }}</text>
+
+        <div class="button-row">
+            <input class="btn-EN" type="button" value="EN" onclick="setLangEN()"></input>
+            <input class="btn-TR" type="button" value="TR" onclick="setLangTR()"></input>
+            <input class="btn-DE" type="button" value="DE" onclick="setLangDE()"></input>
+            <input class="btn-FR" type="button" value="FR" onclick="setLangFR()"></input>
+            <input class="btn-ES" type="button" value="ES" onclick="setLangES()"></input>
+            <input class="btn-IT" type="button" value="IT" onclick="setLangIT()"></input>
+        </div>
+
+        <input class="name-input" type="text" placeholder="{{ labels.placeholder_note }}" value="{{ note }}" style="color: black;"
+               onchange="updateNote()"></input>
+
+        <div class="button-row">
+            <input class="btn-put" type="button" value="{{ labels.button_save }}" onclick="putNote()"></input>
+            <input class="btn-get" type="button" value="{{ labels.button_load }}" onclick="getNote()"></input>
+            <input class="btn-delete" type="button" value="{{ labels.button_delete }}" onclick="deleteNote()"></input>
+        </div>
+    </div>
+</stack>
