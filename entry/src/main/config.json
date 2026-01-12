@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.litequicklocalizationmanager",
+    "bundleName": "com.hmosdemos.lite_wearable.sportwatch_howto_quick_localization_manager",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,

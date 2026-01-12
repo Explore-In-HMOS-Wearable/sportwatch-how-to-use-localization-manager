@@ -1,14 +1,14 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
 
-# Quick Localization Manager
+# How To Use Localization
 
 HarmonyOS application that allows users to dynamically switch between multiple interface languages (English, Turkish, German, French, Spanish, and Italian) in real time using a simple localization manager.
 
 # Preview
 
-<p align="left">
+<div>
   <img src="./screenshots/screenshot1.png" width="25%">
-</p>
+</div>
 
 # Use Cases
 
@@ -45,7 +45,7 @@ entry/src/main/js/MainAbility
 - Huawei Lite Wearable  
 - HarmonyOS-compatible devices supporting JS UI pages
 
-# LICENSE
+# License
 
 Quick Localization Manager is distributed under the terms of the **MIT License**.  
 See the [LICENSE](/LICENSE) file for more information.
